@@ -4,26 +4,80 @@
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
-      <sidebar class="sidebar-left">
-        <h1 id="dashboard">Dashboard</h1>
-        <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-        </ul>
-        <ul>
+     <sidebar class="sidebar">
+  <h1 id="dashboard">Dashboard</h1>
+  <ul>
+    <div class="top">
+      <div class="items">
+        <a href="home.html">
+          <img src="svg/home.svg" alt="" />
+          <li class="Home">Home</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="profile.html">
+          <img src="svg/card-account-details.svg" alt="" />
+          <li class="Profile">Profile</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="messages.html">
+          <img src="svg/message-alert.svg" alt="" />
+          <li class="Messages">Messages</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="history.html">
+          <img src="svg/clock.svg" alt="" />
+          <li class="History">History</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="tasks.html">
+          <img src="svg/file-tree.svg" alt="" />
+          <li class="Tasks">Tasks</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="communities.html">
+          <img src="svg/account-group.svg" alt="" />
+          <li class="Communities">Communities</li>
+        </a>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="items">
+        <a href="settings.html">
+          <img src="svg/cog.svg" alt="" />
           <li>Settings</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="support.html">
+          <img src="svg/help-box-outline.svg" alt="" />
           <li>Support</li>
+        </a>
+      </div>
+      <div class="items">
+        <a href="privacy.html">
+          <img src="svg/lock.svg" alt="" />
           <li>Privacy</li>
-        </ul>
-      </sidebar>
+        </a>
+      </div>
+    </div>
+  </ul>
+</sidebar>
       <header class="header">
         <input type="text" text="" />
         <img src="" alt="Notification" /><img src="" alt="ProfilePic" />
@@ -48,5 +102,6 @@
         </div>
       </div>
     </div>
+</div>
   </body>
 </html>

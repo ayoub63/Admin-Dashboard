@@ -122,6 +122,66 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* reset /*
+body {
+  font-family: "Roboto", sans-se;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  height: 100vh;
+  background: gainsboro;
+}
 
+.sidebar {
+  background-color: #6366f1;
+  padding: 20px 30px;
+  display: grid;
+  grid-row: 1 /3;
+  gap: 50px;
+  grid-template-rows: 1fr 5fr 2fr;
+}
 
+.sidebar .items a {
+  display: flex;
+  gap: 5px;
+}
+.sidebar img {
+  height: 30px;
+}
+
+.sidebar .items {
+  margin-bottom: 10px;
+}
+
+.sidebar li {
+  padding-left: 20px;
+  color: white;
+  font-size: 26px;
+}
+
+.sidebar #dashboard {
+  align-self: flex-start;
+  color: white;
+  font-size: 40px;
+}
+
+.bottom {
+  margin-top: 50px;
+}
+
+.header {
+  grid-column: auto;
+  background-color: white;
+}
+
+input {
+  border-radius: 4px;
+  border-style: none;
+}
+
+input::before {
+  content: "";
+  background-image: url("svg/shield-search.svg");
+  display: inline-block;
+}
