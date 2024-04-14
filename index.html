@@ -14,94 +14,224 @@
   </head>
   <body>
     <div class="container">
-     <sidebar class="sidebar">
-  <h1 id="dashboard">Dashboard</h1>
-  <ul>
-    <div class="top">
-      <div class="items">
-        <a href="home.html">
-          <img src="svg/home.svg" alt="" />
-          <li class="Home">Home</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="profile.html">
-          <img src="svg/card-account-details.svg" alt="" />
-          <li class="Profile">Profile</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="messages.html">
-          <img src="svg/message-alert.svg" alt="" />
-          <li class="Messages">Messages</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="history.html">
-          <img src="svg/clock.svg" alt="" />
-          <li class="History">History</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="tasks.html">
-          <img src="svg/file-tree.svg" alt="" />
-          <li class="Tasks">Tasks</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="communities.html">
-          <img src="svg/account-group.svg" alt="" />
-          <li class="Communities">Communities</li>
-        </a>
-      </div>
-    </div>
+      <sidebar class="sidebar">
+        <h1 id="dashboard">Dashboard</h1>
+        <ul>
+          <div class="top">
+            <div class="items">
+              <a href="home.html">
+                <img src="svg/home.svg" alt="" />
+                <li class="Home">Home</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="profile.html">
+                <img src="svg/card-account-details.svg" alt="" />
+                <li class="Profile">Profile</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="messages.html">
+                <img src="svg/message-alert.svg" alt="" />
+                <li class="Messages">Messages</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="history.html">
+                <img src="svg/clock.svg" alt="" />
+                <li class="History">History</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="tasks.html">
+                <img src="svg/file-tree.svg" alt="" />
+                <li class="Tasks">Tasks</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="communities.html">
+                <img src="svg/account-group.svg" alt="" />
+                <li class="Communities">Communities</li>
+              </a>
+            </div>
+          </div>
 
-    <div class="bottom">
-      <div class="items">
-        <a href="settings.html">
-          <img src="svg/cog.svg" alt="" />
-          <li>Settings</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="support.html">
-          <img src="svg/help-box-outline.svg" alt="" />
-          <li>Support</li>
-        </a>
-      </div>
-      <div class="items">
-        <a href="privacy.html">
-          <img src="svg/lock.svg" alt="" />
-          <li>Privacy</li>
-        </a>
-      </div>
-    </div>
-  </ul>
-</sidebar>
+          <div class="bottom">
+            <div class="items">
+              <a href="settings.html">
+                <img src="svg/cog.svg" alt="" />
+                <li>Settings</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="support.html">
+                <img src="svg/help-box-outline.svg" alt="" />
+                <li>Support</li>
+              </a>
+            </div>
+            <div class="items">
+              <a href="privacy.html">
+                <img src="svg/lock.svg" alt="" />
+                <li>Privacy</li>
+              </a>
+            </div>
+          </div>
+        </ul>
+      </sidebar>
       <header class="header">
-        <input type="text" text="" />
-        <img src="" alt="Notification" /><img src="" alt="ProfilePic" />
-        <p>Morgan Oakley</p>
-        <img src="" alt="ProfPic-Big" />
-        <p>Hi there, Morgan Oakley (@morgan)</p>
-        <button class="btn">New</button>
-        <button class="btn">Upload</button>
-        <button class="btn">Share</button>
+        <div class="top-header">
+          <div class="search">
+            <img src="svg/shield-search.svg" alt="" />
+            <input type="text" text="" />
+          </div>
+          <div class="right-sector">
+            <img src="svg/bell.svg" alt="Notification" />
+            <img id="profile" src="svg/Download.jpeg" alt="ProfilePic" />
+            <p>Morgan Oakley</p>
+          </div>
+        </div>
+
+        <div class="bottom-header">
+          <div class="left">
+            <img id="profile-big" src="svg/Download.jpeg" alt="ProfPic-Big" />
+            <p>
+              Hi there, <br />
+              <span>Morgan Oakley (@morgan)</span>
+            </p>
+          </div>
+
+          <div class="btns">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
+          </div>
+        </div>
       </header>
 
       <div class="main">
-        <div class="main-head">Your Projects</div>
-        <div class="card">
-          <h2>Super Cool Project</h2>
-          <p>
-            kdffffffffffffffffffffffffffffffmdskfsmdfksmfksmfksdmfkdmfkdsmfdsf
-          </p>
-          <button>g</button>
-          <button>f</button>
-          <button>a</button>
+        <div class="projects">
+          <h2 id="title">Your Projects</h2>
+          <div class="project-area">
+            <div class="card">
+              <h2>Super Cool Project</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vestibulum imperdiet eros nec mollis.
+              </p>
+
+              <div class="images">
+                <img src="svg/bell.svg" alt="Notification" />
+                <img src="svg/lock.svg" alt="" />
+                <img src="svg/account-group.svg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <h2>Super Cool Project</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vestibulum imperdiet eros nec mollis.
+              </p>
+              <div class="images">
+                <img src="svg/bell.svg" alt="Notification" />
+                <img src="svg/lock.svg" alt="" />
+                <img src="svg/account-group.svg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <h2>Super Cool Project</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vestibulum imperdiet eros nec mollis.
+              </p>
+
+              <div class="images">
+                <img src="svg/bell.svg" alt="Notification" />
+                <img src="svg/lock.svg" alt="" />
+                <img src="svg/account-group.svg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <h2>Super Cool Project</h2>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vestibulum imperdiet eros nec mollis.
+              </div>
+
+              <div class="images">
+                <img src="svg/bell.svg" alt="Notification" />
+                <img src="svg/lock.svg" alt="" />
+                <img src="svg/account-group.svg" alt="" />
+              </div>
+            </div>
+            <div class="card">
+              <h2>Super Cool Project</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                vestibulum imperdiet eros nec mollis.
+              </p>
+              <div class="images">
+                <img src="svg/bell.svg" alt="Notification" />
+                <img src="svg/lock.svg" alt="" />
+                <img src="svg/account-group.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="anounce-comtainer">
+            <h2 id="announce">Announcements</h2>
+            <div class="announce-area">
+              <div class="announce-entry">
+                <h4>Example text</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt impedit consectetur.
+                </p>
+              </div>
+              <div class="announce-entry">
+                <h4>Example text</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt impedit consectetur.
+                </p>
+              </div>
+              <div class="announce-entry">
+                <h4>Example text</h4>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Incidunt impedit consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="trending-container">
+            <h2 id="trending">Trending</h2>
+            <div class="trending-area">
+              <div class="trending-entry">
+                <img src="svg/Download.jpeg" alt="Profilepic" />
+                <div class="text">
+                  <p>@Hellomessi</p>
+                  <p>second oldest, second best</p>
+                </div>
+              </div>
+              <div class="trending-entry">
+                <img src="svg/Download.jpeg" alt="Profilepic" />
+                <div class="text">
+                  <p>@Hellomessi</p>
+                  <p>second oldest, second best</p>
+                </div>
+              </div>
+              <div class="trending-entry">
+                <img src="svg/Download.jpeg" alt="Profilepic" />
+                <div class="text">
+                  <p>@Hellomessi</p>
+                  <p>second oldest, second best</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-</div>
   </body>
 </html>
